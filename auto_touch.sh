@@ -15,7 +15,7 @@ max_number=25
 
 if (( max_number <= total_files))
 then
-    max_number="$(($total_files+2))"
+    max_number="$(($total_files+25))"
 echo $max_number
 fi
 
