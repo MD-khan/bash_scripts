@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Count and assined total number of files in the firectory
+# Count and assined total number of files in the directory
 total_files=`ls -1 | wc -l`
 
 # Ecxclude the script file from the total number of files
